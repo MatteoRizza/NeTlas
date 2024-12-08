@@ -1,0 +1,29 @@
+GENE DBs
+Biogrid: https://downloads.thebiogrid.org/File/BioGRID/Release-Archive/BIOGRID-4.2.191/BIOGRID-ORGANISM-4.2.191.tab3.zip
+Intact: ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/intact.zip
+Mint: http://www.ebi.ac.uk/Tools/webservices/psicquic/mint/webservices/current/search/query/species:human
+Dip: https://dip.doe-mbi.ucla.edu/dip/Download.cgi?SM=7&TX=9606
+Matrixdb: http://matrixdb.univ-lyon1.fr/
+Innate: https://www.innatedb.com/redirect.do?go=downloadCurated
+
+DRUG DBs
+Biogrid: https://downloads.thebiogrid.org/File/BioGRID/Release-Archive/BIOGRID-4.2.191/BIOGRID-CHEMICALS-4.2.191.chemtab.zip
+Dgi: https://www.dgidb.org/downloads
+
+DISEASE DBs
+DisGeNET: https://www.disgenet.org/downloads
+BioSnap: https://snap.stanford.edu/biodata/datasets/10012/10012-DG-AssocMiner.html
+
+DATA QUALITY
+Pandas-profiling: https://github.com/pandas-profiling/pandas-profiling
+
+RELIABILITY SCORE
+MIscore: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4316181/
+Detection method subcategories: https://www.ebi.ac.uk/ols/ontologies/mi/terms?obo_id=MI%3A0045
+Biogrid detection methods: https://wiki.thebiogrid.org/doku.php/experimental_systems
+
+
+
+
+
+
