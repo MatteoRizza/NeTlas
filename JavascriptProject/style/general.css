@@ -1,0 +1,167 @@
+body{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.lds-dual-ring {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background-color: transparent;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+    margin-top: 20%;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#black {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: black;
+}
+
+#logo{
+    position: fixed;
+    top: 1%;
+    left: 40%;
+    right: 40%;
+    width: 20%;
+    height: 10%;
+    z-index: 1;
+}
+
+#stats {
+    position: fixed;
+    left: 1%;
+    top: 1%;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    border: 4px solid #b22222;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#stats:hover {background-color: #737373;}
+
+#closestats {
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    color: black;
+    border: 4px solid #b22222;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#closestats:hover {background-color: #737373;}
+
+#sidebarbutton {
+    position: fixed;
+    right: 1%;
+    top: 1%;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    border: 4px solid #b22222;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#sidebarbutton:hover {background-color: #737373;}
+
+#closesidebar {
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    color: black;
+    border: 4px solid #b22222;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#closesidebar:hover {background-color: #737373;}
+
+#export {
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    border: 4px solid #b22222;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#export:hover {background-color: #737373;}
+
+#closeexport {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    z-index: 3;
+    background-color: white;
+    color: black;
+    border: 4px solid #b22222;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#closeexport:hover {background-color: #737373;}
+
+

@@ -1,0 +1,181 @@
+#sidebarcontainer{
+    position: fixed;
+    width: 50.1%;
+    height: 100%;
+    top: 0%;
+    right: 0%;
+    background-color: black;
+    color: white;
+    z-index: 2;
+    visibility: hidden;
+}
+
+#resetsidebar {
+    position: fixed;
+    bottom: 10%;
+    right: 3%;
+    height: 5%;
+    width: 7%;
+    padding: 2px 20px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    background-color: #b22222;
+}
+
+#resetsidebar:hover{
+    background-color: #da3e3e;
+}
+
+#switchcontainer {
+    position: absolute;
+    top: 1%;
+    right: 40%;
+    height: 7.5%;
+    width: 20%;
+}
+
+#drugswitch {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-color: white;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#drugswitch:hover {background-color: #737373;}
+
+#diseaseswitch {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-color: white;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#diseaseswitch:hover {background-color: #737373;}
+
+#myInputside {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 30%;
+    height: 3%;
+    background-image: url("searchicon.png"); /* Add a search icon to input */
+    background-position: 4% 45%; /* Position the search icon */
+    background-size: 9% 40%;
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 10px 12px 30px; /* Add some padding */
+    border: 1px solid white; /* Add a grey border */
+
+}
+
+#sidehead{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    width: 94%;
+}
+
+#sidebar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid white;
+}
+
+#sidebar th:hover{
+    cursor: pointer;
+}
+
+#sidebar th:last-child:hover{
+    cursor: default;
+}
+
+#sidebar th:first-child{
+    width: 70%;
+}
+
+#sidebarscroll{
+    position: absolute;
+    top: 18%;
+    left: 1%;
+    width: 97%;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+#sidebarbody{
+    table-layout: fixed;
+    width: 100%;
+}
+
+#sidebarbody td{
+    text-align: center;
+    border-bottom: solid white 0.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#sidebarbody td:first-child{
+    text-align: left;
+    width: 70%;
+}
+
+#sidebarbody td:first-child:hover{
+    cursor: pointer;
+    background-color: grey;
+    overflow: visible;
+    white-space: normal;
+}
+
+#sidebarbody td:last-child:hover{
+    cursor: pointer;
+}
+
+#ddsetscontainer{
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    top: 1%;
+    left: 65%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.similaritytitle{
+    position: relative;
+    width: 95.5%;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: solid white 0.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.returnbutton:hover{
+    cursor: pointer;
+}

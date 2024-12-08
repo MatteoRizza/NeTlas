@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    color: #b22222;
+}
+
+h2 {
+    color: #da3e3e;
+}
+
+#exportcontainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    z-index: 2;
+    visibility: hidden;
+}
+
+#exportleft {
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    top: 15%;
+    right: 45%;
+}
+
+#exportright {
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    top: 15%;
+    left: 55%;
+}
+
+#expsubmit {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    bottom: 5%;
+    left: 45%;
+    right: 45%;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:1000;
+    color:#FFFFFF;
+    background-color:#b22222;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+#expsubmit:hover{
+    background-color:#da3e3e;
+}
+
+@media all and (max-width:30em){
+    #expsubmit{
+        display:block;
+        margin:0.2em auto;
+        }
+}

@@ -1,0 +1,41 @@
+#drugdiv {
+    position: fixed;
+    right: 1%;
+    top: 28%;
+    width: 20%;
+    height: 55%;
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#diseasediv {
+    position: fixed;
+    right: 1%;
+    top: 28%;
+    width: 20%;
+    height: 55%;
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.menuelement{
+    text-align: center;
+    border-bottom: solid white 0.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menuelement:hover{
+    overflow: visible;
+    white-space: normal;
+}

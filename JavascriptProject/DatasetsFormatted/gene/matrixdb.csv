@@ -1,0 +1,230 @@
+uniprotIdA,uniprotIdB,entrezGeneIdA,entrezGeneIdB,ensemblIdA,ensemblIdB,hgncSymbolA,hgncSymbolB,detectionMethod,interactionType,pubmedId,author,reliabilityScore
+P13497,Q15113,649,5118,ENSG00000168487,ENSG00000106333,BMP1,PCOLCE,protease assay,physical association|direct interaction,20979576|18164932,Symoens S et al.(2011)|Morimoto H et al.(2008),0.5
+O00206,P21810,7099,633,ENSG00000136869,ENSG00000182492,TLR4,BGN,microscale thermophoresis,direct interaction,24480070,Moreth K et al.(2014),0.4
+O15232,P49747,4148,1311,ENSG00000132031,ENSG00000105664,MATN3,COMP,enzyme linked immunosorbent assay,direct interaction,22521401,Vincourt JB et al.(2012),0.4
+O60568,Q02809,8985,5351,ENSG00000106397,ENSG00000083444,PLOD3,PLOD1,anti tag coimmunoprecipitation,direct interaction,20955792,Heikkinen J et al.(2011),0.4
+O60603,P21810,7097,633,ENSG00000137462,ENSG00000182492,TLR2,BGN,microscale thermophoresis,direct interaction,24480070,Moreth K et al.(2014),0.4
+O75173,P16112,9507,176,ENSG00000158859,ENSG00000157766,ADAMTS4,ACAN,protease assay,protein cleavage,19744558,Struglics A et al.(2010),0.25
+O75173,P35625,9507,7078,ENSG00000158859,ENSG00000100234,ADAMTS4,TIMP3,protease assay,direct interaction,19643179,Troeberg L et al.(2009),0.4
+O76061,P28300,8614,4015,ENSG00000113739,ENSG00000113083,STC2,LOX,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+O76061,P35555,8614,2200,ENSG00000113739,ENSG00000166147,STC2,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+O76061,P55001,8614,4237,ENSG00000113739,ENSG00000117122,STC2,MFAP2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+O94985,P35555,22883,2200,ENSG00000171603,ENSG00000166147,CLSTN1,FBN1,pull down|surface plasmon resonance,physical association|direct interaction,19755719,Cain SA et al.(2009),0.5
+O94985,P62805,22883,121504,ENSG00000171603,ENSG00000274618,CLSTN1,H4-16,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+O94985,P98160,22883,3339,ENSG00000171603,ENSG00000142798,CLSTN1,HSPG2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+O95967,P15502,30008,2006,ENSG00000172638,ENSG00000049540,EFEMP2,ELN,surface plasmon resonance|enzyme linked immunosorbent assay,direct interaction|physical association,19570982,Choudhury R et al.(2009),0.5
+O95967,P28300,30008,4015,ENSG00000172638,ENSG00000113083,EFEMP2,LOX,surface plasmon resonance|enzyme linked immunosorbent assay,direct interaction|physical association,19570982,Choudhury R et al.(2009),0.5
+O95967,Q9UBX5,30008,10516,ENSG00000172638,ENSG00000140092,EFEMP2,FBLN5,enzyme linked immunosorbent assay|surface plasmon resonance,physical association|direct interaction,19570982,Choudhury R et al.(2009),0.5
+O95967,P35555,30008,2200,ENSG00000172638,ENSG00000166147,EFEMP2,FBN1,surface plasmon resonance|enzyme linked immunosorbent assay,direct interaction,19570982,Choudhury R et al.(2009),0.46
+P0DML2,P28300,1442,4015,ENSG00000136488,ENSG00000113083,CSH1,LOX,two hybrid|far western blotting|anti bait coimmunoprecipitation|solid phase assay,physical association|direct interaction,17130123,Polgar N et al.(2007),0.54
+P0DML2,Q9Y4K0,1442,4017,ENSG00000136488,ENSG00000134013,CSH1,LOXL2,two hybrid,physical association,17130123,Polgar N et al.(2007),0.34
+P0DML3,P28300,,4015,,ENSG00000113083,,LOX,two hybrid|far western blotting|anti bait coimmunoprecipitation|solid phase assay,physical association|direct interaction,17130123,Polgar N et al.(2007),0.54
+P0DML3,Q9Y4K0,,4017,,ENSG00000134013,,LOXL2,two hybrid,physical association,17130123,Polgar N et al.(2007),0.34
+P0DMV8,P28300,3303,4015,ENSG00000204389,ENSG00000113083,HSPA1A,LOX,anti bait coimmunoprecipitation,physical association,21536655,Sato S et al.(2011),0.37
+P00558,P24821,5230,3371,ENSG00000102144,ENSG00000041982,PGK1,TNC,pull down,association,21349332,Brellier F et al.(2011),0.32
+P00742,Q15113,2159,5118,ENSG00000126218,ENSG00000106333,F10,PCOLCE,surface plasmon resonance array,direct interaction,24117177,Salza R et al.(2014),0.4
+P00747,P0DMV8,5340,3303,ENSG00000122194,ENSG00000204389,PLG,HSPA1A,solid phase assay|far western blotting,direct interaction,17206383,Dudani AK et al.(2007),0.46
+P00747,P0DMV9,5340,,ENSG00000122194,,PLG,,solid phase assay|far western blotting,direct interaction,17206383,Dudani AK et al.(2007),0.46
+P00747,P04792,5340,3315,ENSG00000122194,ENSG00000106211,PLG,HSPB1,solid phase assay|far western blotting,direct interaction,17206383,Dudani AK et al.(2007),0.46
+P00747,P07355,5340,302,ENSG00000122194,ENSG00000182718,PLG,ANXA2,affinity chromatography technology,physical association,10077593,Moser TL et al.(1999),0.37
+P00747,P09486,5340,6678,ENSG00000122194,ENSG00000113140,PLG,SPARC,solid phase assay,direct interaction,7982919,Kelm RJ et al.(1994),0.4
+P00747,P10809,5340,3329,ENSG00000122194,ENSG00000144381,PLG,HSPD1,solid phase assay|far western blotting,direct interaction,17206383,Dudani AK et al.(2007),0.46
+P00747,Q6UVK1,5340,1464,ENSG00000122194,ENSG00000173546,PLG,CSPG4,solid phase assay|surface plasmon resonance,direct interaction,10889192,Goretzki L et al.(2000),0.46
+P00747,Q15113,5340,5118,ENSG00000122194,ENSG00000106333,PLG,PCOLCE,surface plasmon resonance array,direct interaction,24117177,Salza R et al.(2014),0.4
+P01023,P55001,2,4237,ENSG00000175899,ENSG00000117122,A2M,MFAP2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P01033,P03956,7076,4312,ENSG00000102265,ENSG00000196611,TIMP1,MMP1,enzymatic study|surface plasmon resonance,enzymatic reaction|direct interaction,12475252,Troeberg L et al.(2002),0.46
+P01033,P08253,7076,4313,ENSG00000102265,ENSG00000087245,TIMP1,MMP2,enzymatic study|surface plasmon resonance|protease assay,enzymatic reaction|direct interaction,12475252|19010413,Troeberg L et al.(2002)|Packard BZ et al.(2009),0.55
+P01033,P08254,7076,4314,ENSG00000102265,ENSG00000149968,TIMP1,MMP3,enzymatic study|surface plasmon resonance,enzymatic reaction|direct interaction,12475252,Troeberg L et al.(2002),0.46
+P01033,P14780,7076,4318,ENSG00000102265,ENSG00000100985,TIMP1,MMP9,protease assay,enzymatic reaction,19010413,Packard BZ et al.(2009),0.25
+P01033,P20908,7076,1289,ENSG00000102265,ENSG00000130635,TIMP1,COL5A1,two hybrid|anti bait coimmunoprecipitation,physical association,20979576,Symoens S et al.(2011),0.41
+P01133,Q15113,1950,5118,ENSG00000138798,ENSG00000106333,EGF,PCOLCE,surface plasmon resonance array,direct interaction,24117177,Salza R et al.(2014),0.4
+P01137,P20908,7040,1289,ENSG00000105329,ENSG00000130635,TGFB1,COL5A1,two hybrid,physical association,20979576,Symoens S et al.(2011),0.34
+P01236,P28300,5617,4015,ENSG00000172179,ENSG00000113083,PRL,LOX,solid phase assay,direct interaction,17130123,Polgar N et al.(2007),0.4
+P01241,P28300,2688,4015,ENSG00000259384,ENSG00000113083,GH1,LOX,solid phase assay,direct interaction,17130123,Polgar N et al.(2007),0.4
+P01308,P07585,3630,1634,ENSG00000254647,ENSG00000011465,INS,DCN,enzyme linked immunosorbent assay,direct interaction,24389353,Morcavallo A et al.(2014),0.4
+P01344,P07585,3481,1634,ENSG00000167244,ENSG00000011465,IGF2,DCN,enzyme linked immunosorbent assay,direct interaction,24389353,Morcavallo A et al.(2014),0.4
+P02452,P20908,1277,1289,ENSG00000108821,ENSG00000130635,COL1A1,COL5A1,two hybrid,physical association,20979576,Symoens S et al.(2011),0.34
+P02452,P25067,1277,1296,ENSG00000108821,ENSG00000171812,COL1A1,COL8A2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P02452,P28300,1277,4015,ENSG00000108821,ENSG00000113083,COL1A1,LOX,two hybrid,physical association,21690299,Sanchez-Morgan N et al.(2011),0.34
+P02452,Q08345,1277,780,ENSG00000108821,ENSG00000137332,COL1A1,DDR1,enzyme linked immunosorbent assay,direct interaction,21044884,Xu H et al.(2011),0.4
+P02461,P28300,1281,4015,ENSG00000168542,ENSG00000113083,COL3A1,LOX,two hybrid,physical association,21690299,Sanchez-Morgan N et al.(2011),0.34
+P02461,Q08345,1281,780,ENSG00000168542,ENSG00000137332,COL3A1,DDR1,enzyme linked immunosorbent assay,direct interaction,21044884,Xu H et al.(2011),0.4
+P02545,P25067,4000,1296,ENSG00000160789,ENSG00000171812,LMNA,COL8A2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P02545,P35555,4000,2200,ENSG00000160789,ENSG00000166147,LMNA,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P02751,P07585,2335,1634,ENSG00000115414,ENSG00000011465,FN1,DCN,solid phase assay|affinity chromatography technology,direct interaction|association,1747115,Schmidt G et al.(1991),0.48
+P02751,P07996,2335,7057,ENSG00000115414,ENSG00000137801,FN1,THBS1,solid phase assay|surface plasmon resonance array,direct interaction,18226512|19542224,Calzada MJ et al.(2008)|Faye C et al.(2009),0.52
+P02751,P08253,2335,4313,ENSG00000115414,ENSG00000087245,FN1,MMP2,protease assay|enzyme linked immunosorbent assay|competition binding,cleavage reaction|direct interaction|protein cleavage,20932906,Steffensen B et al.(2011),0.49
+P02751,P08311,2335,1511,ENSG00000115414,ENSG00000100448,FN1,CTSG,protease assay,direct interaction,8408036,Hogg PJ et al.(1993),0.4
+P02751,P10144,2335,3002,ENSG00000115414,ENSG00000100453,FN1,GZMB,protease assay,protein cleavage,23228447,Hendel A et al.(2013),0.25
+P02751,P14210,2335,3082,ENSG00000115414,ENSG00000019991,FN1,HGF,enzyme linked immunosorbent assay,direct interaction,8780385,Lamszus K et al.(1996),0.4
+P02751,P20908,2335,1289,ENSG00000115414,ENSG00000130635,FN1,COL5A1,two hybrid|anti bait coimmunoprecipitation,physical association,20979576,Symoens S et al.(2011),0.41
+P02751,P21980,2335,7052,ENSG00000115414,ENSG00000198959,FN1,TGM2,enzymatic study|enzyme linked immunosorbent assay,enzymatic reaction|direct interaction,22442151,Lortat-Jacob H et al.(2012),0.46
+P02751,P24821,2335,3371,ENSG00000115414,ENSG00000041982,FN1,TNC,enzyme linked immunosorbent assay|pull down,direct interaction|association,20708078|21349332,To WS et al.(2010)|Brellier F et al.(2011),0.54
+P02751,P25067,2335,1296,ENSG00000115414,ENSG00000171812,FN1,COL8A2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P02751,P27658,2335,1295,ENSG00000115414,ENSG00000144810,FN1,COL8A1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P02751,P28300,2335,4015,ENSG00000115414,ENSG00000113083,FN1,LOX,two hybrid|pull down|solid phase assay,physical association|direct interaction,15843371|21690299,Fogelgren B et al.(2005)|Sanchez-Morgan N et al.(2011),0.58
+P02751,P35555,2335,2200,ENSG00000115414,ENSG00000166147,FN1,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P02751,P55001,2335,4237,ENSG00000115414,ENSG00000117122,FN1,MFAP2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P02751,P58215,2335,84695,ENSG00000115414,ENSG00000115318,FN1,LOXL3,oxidoreductase assay,oxidoreductase activity electron transfer reaction,26954549,Kraft-Sheleg O et al.(2016),0.25
+P02751,Q16610,2335,1893,ENSG00000115414,ENSG00000143369,FN1,ECM1,two hybrid,physical association,19275936,Sercu S et al.(2009),0.34
+P02768,P25067,213,1296,ENSG00000163631,ENSG00000171812,ALB,COL8A2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P02768,P35555,213,2200,ENSG00000163631,ENSG00000166147,ALB,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P02768,P55001,213,4237,ENSG00000163631,ENSG00000117122,ALB,MFAP2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P03372,Q9UBK9,2099,8409,ENSG00000091831,ENSG00000126756,ESR1,UXT,anti tag coimmunoprecipitation,physical association,28106301,Sanchez-Morgan N et al.(2017),0.37
+P03956,P08123,4312,1278,ENSG00000196611,ENSG00000164692,MMP1,COL1A2,protease assay,direct interaction,19010413,Packard BZ et al.(2009),0.4
+P03956,P16035,4312,7077,ENSG00000196611,ENSG00000035862,MMP1,TIMP2,surface plasmon resonance,direct interaction,12475252,Troeberg L et al.(2002),0.4
+P03956,P35625,4312,7078,ENSG00000196611,ENSG00000100234,MMP1,TIMP3,protease assay,direct interaction,19643179,Troeberg L et al.(2009),0.4
+P03956,Q99727,4312,7079,ENSG00000196611,ENSG00000157150,MMP1,TIMP4,enzymatic study|surface plasmon resonance,enzymatic reaction|direct interaction,12475252,Troeberg L et al.(2002),0.46
+P04004,P09486,7448,6678,ENSG00000109072,ENSG00000113140,VTN,SPARC,solid phase assay|light microscopy,direct interaction|colocalization,9164872,Rosenblatt S et al.(1997),0.45
+P04004,P14210,7448,3082,ENSG00000109072,ENSG00000019991,VTN,HGF,enzyme linked immunosorbent assay,direct interaction,8780385,Lamszus K et al.(1996),0.4
+P04275,P14210,7450,3082,ENSG00000110799,ENSG00000019991,VWF,HGF,enzyme linked immunosorbent assay,direct interaction,8780385,Lamszus K et al.(1996),0.4
+P05121,P28300,5054,4015,ENSG00000106366,ENSG00000113083,SERPINE1,LOX,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P05121,P35555,5054,2200,ENSG00000106366,ENSG00000166147,SERPINE1,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P05121,P55001,5054,4237,ENSG00000106366,ENSG00000117122,SERPINE1,MFAP2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P05121,Q9UBX5,5054,10516,ENSG00000106366,ENSG00000140092,SERPINE1,FBLN5,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P05230,P11362,2246,2260,ENSG00000113578,ENSG00000077782,FGF1,FGFR1,surface plasmon resonance,direct interaction,18441324,Mori S et al.(2008),0.4
+P05230,P98160,2246,3339,ENSG00000113578,ENSG00000142798,FGF1,HSPG2,enzyme linked immunosorbent assay,physical association,24509440,Lord MS et al.(2014),0.37
+P11362,P98160,2260,3339,ENSG00000077782,ENSG00000142798,FGFR1,HSPG2,enzyme linked immunosorbent assay,physical association,24509440,Lord MS et al.(2014),0.37
+P22607,P98160,2261,3339,ENSG00000068078,ENSG00000142798,FGFR3,HSPG2,enzyme linked immunosorbent assay,physical association,24509440,Lord MS et al.(2014),0.37
+P05556,P17301,3688,3673,ENSG00000150093,ENSG00000164171,ITGB1,ITGA2,anti bait coimmunoprecipitation,physical association,10397731,Chung J et al.(1999),0.37
+P17301,Q08722,3673,961,ENSG00000164171,ENSG00000196776,ITGA2,CD47,anti bait coimmunoprecipitation,association,10397731,Chung J et al.(1999),0.32
+P05556,Q08722,3688,961,ENSG00000150093,ENSG00000196776,ITGB1,CD47,anti bait coimmunoprecipitation,association,10397731,Chung J et al.(1999),0.32
+P06213,P07585,3643,1634,ENSG00000171105,ENSG00000011465,INSR,DCN,enzyme linked immunosorbent assay,direct interaction,24389353,Morcavallo A et al.(2014),0.4
+P07305,P28300,3005,4015,ENSG00000189060,ENSG00000113083,H1-0,LOX,solid phase assay,direct interaction,12686141,Giampuzzi M et al.(2003),0.4
+P07585,P09038,1634,2247,ENSG00000011465,ENSG00000138685,DCN,FGF2,solid phase assay,direct interaction,24447999,Nikolovska K et al.(2014),0.4
+P07996,P21980,7057,7052,ENSG00000137801,ENSG00000198959,THBS1,TGM2,surface plasmon resonance array,direct interaction,19542224,Faye C et al.(2009),0.4
+P07996,P35555,7057,2200,ENSG00000137801,ENSG00000166147,THBS1,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P07996,P98066,7057,7130,ENSG00000137801,ENSG00000123610,THBS1,TNFAIP6,solid phase assay,direct interaction,18226512,Calzada MJ et al.(2008),0.4
+P07996,Q15113,7057,5118,ENSG00000137801,ENSG00000106333,THBS1,PCOLCE,surface plasmon resonance array|surface plasmon resonance,direct interaction,24117177,Salza R et al.(2014),0.46
+P07996,Q16610,7057,1893,ENSG00000137801,ENSG00000143369,THBS1,ECM1,two hybrid,physical association,19275936,Sercu S et al.(2009),0.34
+P08123,P08253,1278,4313,ENSG00000164692,ENSG00000087245,COL1A2,MMP2,protease assay,direct interaction,19010413,Packard BZ et al.(2009),0.4
+P08123,P08254,1278,4314,ENSG00000164692,ENSG00000149968,COL1A2,MMP3,protease assay,direct interaction,19010413,Packard BZ et al.(2009),0.4
+P08123,P14780,1278,4318,ENSG00000164692,ENSG00000100985,COL1A2,MMP9,protease assay,direct interaction,19010413,Packard BZ et al.(2009),0.4
+P08123,P20908,1278,1289,ENSG00000164692,ENSG00000130635,COL1A2,COL5A1,two hybrid,physical association,20979576,Symoens S et al.(2011),0.34
+P08123,P22894,1278,4317,ENSG00000164692,ENSG00000118113,COL1A2,MMP8,protease assay,direct interaction,19010413,Packard BZ et al.(2009),0.4
+P08123,P28300,1278,4015,ENSG00000164692,ENSG00000113083,COL1A2,LOX,two hybrid,physical association,21690299,Sanchez-Morgan N et al.(2011),0.34
+P08123,P43235,1278,1513,ENSG00000164692,ENSG00000143387,COL1A2,CTSK,protease assay,direct interaction,19010413,Packard BZ et al.(2009),0.4
+P08123,P50281,1278,4323,ENSG00000164692,ENSG00000157227,COL1A2,MMP14,protease assay,direct interaction,19010413,Packard BZ et al.(2009),0.4
+P08123,P51511,1278,4324,ENSG00000164692,ENSG00000102996,COL1A2,MMP15,protease assay,direct interaction,19010413,Packard BZ et al.(2009),0.4
+P08123,P51512,1278,4325,ENSG00000164692,ENSG00000156103,COL1A2,MMP16,protease assay,direct interaction,19010413,Packard BZ et al.(2009),0.4
+P08123,Q08345,1278,780,ENSG00000164692,ENSG00000137332,COL1A2,DDR1,enzyme linked immunosorbent assay,direct interaction,21044884,Xu H et al.(2011),0.4
+P08253,P16035,4313,7077,ENSG00000087245,ENSG00000035862,MMP2,TIMP2,surface plasmon resonance|protease assay|enzyme linked immunosorbent assay|competition binding,direct interaction|enzymatic reaction,12023034|12475252|19010413|21839835,Lee SJ et al.(2002)|Troeberg L et al.(2002)|Packard BZ et al.(2009)|Xu X et al.(2011),0.65
+P08253,P20908,4313,1289,ENSG00000087245,ENSG00000130635,MMP2,COL5A1,two hybrid|anti bait coimmunoprecipitation,physical association,20979576,Symoens S et al.(2011),0.41
+P08253,P35625,4313,7078,ENSG00000087245,ENSG00000100234,MMP2,TIMP3,protease assay,direct interaction,19643179,Troeberg L et al.(2009),0.4
+P08253,Q99727,4313,7079,ENSG00000087245,ENSG00000157150,MMP2,TIMP4,enzymatic study|surface plasmon resonance,enzymatic reaction|direct interaction,12475252,Troeberg L et al.(2002),0.46
+P08254,P09486,4314,6678,ENSG00000149968,ENSG00000113140,MMP3,SPARC,protease assay,direct interaction,12867428,Sage EH et al.(2003),0.4
+P08254,P16035,4314,7077,ENSG00000149968,ENSG00000035862,MMP3,TIMP2,surface plasmon resonance,direct interaction,12475252,Troeberg L et al.(2002),0.4
+P08254,P16112,4314,176,ENSG00000149968,ENSG00000157766,MMP3,ACAN,protease assay,protein cleavage,19744558,Struglics A et al.(2010),0.25
+P08254,P35625,4314,7078,ENSG00000149968,ENSG00000100234,MMP3,TIMP3,protease assay,direct interaction,19643179,Troeberg L et al.(2009),0.4
+P08254,Q99727,4314,7079,ENSG00000149968,ENSG00000157150,MMP3,TIMP4,enzymatic study|surface plasmon resonance,enzymatic reaction|direct interaction,12475252,Troeberg L et al.(2002),0.46
+P08670,P25067,7431,1296,ENSG00000026025,ENSG00000171812,VIM,COL8A2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P08758,P35555,308,2200,ENSG00000164111,ENSG00000166147,ANXA5,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P09038,P98160,2247,3339,ENSG00000138685,ENSG00000142798,FGF2,HSPG2,enzyme linked immunosorbent assay|far western blotting,physical association|direct interaction,24509440|19422911,Lord MS et al.(2014)|Zoeller JJ et al.(2009),0.56
+P09038,P31431,2247,6385,ENSG00000138685,ENSG00000124145,FGF2,SDC4,enzyme linked immunosorbent assay,direct interaction,20382221,Parsi MK et al.(2010),0.4
+P09038,P34741,2247,6383,ENSG00000138685,ENSG00000169439,FGF2,SDC2,enzyme linked immunosorbent assay,direct interaction,20382221,Parsi MK et al.(2010),0.4
+P09486,P19320,6678,7412,ENSG00000113140,ENSG00000162692,SPARC,VCAM1,solid phase assay|anti tag coimmunoprecipitation,direct interaction,17178915,Kelly KA et al.(2007),0.46
+P09486,P37173,6678,7048,ENSG00000113140,ENSG00000163513,SPARC,TGFBR2,anti tag coimmunoprecipitation,direct interaction,15034927,Francki A et al.(2004),0.4
+P09486,P43235,6678,1513,ENSG00000113140,ENSG00000143387,SPARC,CTSK,enzymatic study,protein cleavage,8647860,Bossard MJ et al.(1996),0.25
+P09486,Q13418,6678,3611,ENSG00000113140,ENSG00000166333,SPARC,ILK,phage display|solid phase assay,direct interaction,16115889,Barker TH et al.(2005),0.46
+P09486,Q14790,6678,841,ENSG00000113140,ENSG00000064012,SPARC,CASP8,coimmunoprecipitation,association,17897953,Tang MJ et al.(2007),0.32
+P10415,Q14457,596,8678,ENSG00000171791,ENSG00000126581,BCL2,BECN1,anti bait coimmunoprecipitation,association,24472739,Goyal A et al.(2014),0.32
+Q14457,Q8NEB9,8678,5289,ENSG00000126581,ENSG00000078142,BECN1,PIK3C3,anti bait coimmunoprecipitation,association|physical association,24472739,Goyal A et al.(2014),0.4
+P10909,P24821,1191,3371,ENSG00000120885,ENSG00000041982,CLU,TNC,pull down,association,21349332,Brellier F et al.(2011),0.32
+P12109,P20908,1291,1289,ENSG00000142156,ENSG00000130635,COL6A1,COL5A1,two hybrid,physical association,20979576,Symoens S et al.(2011),0.34
+P12110,P20908,1292,1289,ENSG00000142173,ENSG00000130635,COL6A2,COL5A1,two hybrid,physical association,20979576,Symoens S et al.(2011),0.34
+P12111,P20908,1293,1289,ENSG00000163359,ENSG00000130635,COL6A3,COL5A1,two hybrid,physical association,20979576,Symoens S et al.(2011),0.34
+P12643,P13497,650,649,ENSG00000125845,ENSG00000168487,BMP2,BMP1,coimmunoprecipitation,physical association,17255107,Jasuja R et al.(2007),0.37
+P12644,P13497,652,649,ENSG00000125378,ENSG00000168487,BMP4,BMP1,coimmunoprecipitation,physical association,17255107,Jasuja R et al.(2007),0.37
+P13497,P20908,649,1289,ENSG00000168487,ENSG00000130635,BMP1,COL5A1,protease assay,direct interaction|physical association,20979576,Symoens S et al.(2011),0.44
+P13497-4,Q13316,,1758,,ENSG00000152592,,DMP1,protease assay,protein cleavage,20079836,von Marschall Z et al.(2010),0.25
+P13497-2,Q13316,,1758,,ENSG00000152592,,DMP1,protease assay,protein cleavage,20079836,von Marschall Z et al.(2010),0.25
+P13500,P39060,6347,80781,ENSG00000108691,ENSG00000182871,CCL2,COL18A1,solid phase assay,direct interaction,12556525,Kawashima H et al.(2003),0.4
+P13611,P14151,1462,6402,ENSG00000038427,ENSG00000188404,VCAN,SELL,solid phase assay,direct interaction,12556525,Kawashima H et al.(2003),0.4
+P13611,P16070,1462,960,ENSG00000038427,ENSG00000026508,VCAN,CD44,solid phase assay,direct interaction,12556525,Kawashima H et al.(2003),0.4
+P13611,P16109,1462,6403,ENSG00000038427,ENSG00000174175,VCAN,SELP,solid phase assay,direct interaction,12556525,Kawashima H et al.(2003),0.4
+P14151,P39060,6402,80781,ENSG00000188404,ENSG00000182871,SELL,COL18A1,solid phase assay,direct interaction,12556525,Kawashima H et al.(2003),0.4
+P14210,P15924,3082,1832,ENSG00000019991,ENSG00000096696,HGF,DSP,enzyme linked immunosorbent assay,direct interaction,8780385,Lamszus K et al.(1996),0.4
+P14210,P24821,3082,3371,ENSG00000019991,ENSG00000041982,HGF,TNC,enzyme linked immunosorbent assay,direct interaction,8780385,Lamszus K et al.(1996),0.4
+P14210,P98160,3082,3339,ENSG00000019991,ENSG00000142798,HGF,HSPG2,enzyme linked immunosorbent assay,direct interaction,8780385,Lamszus K et al.(1996),0.4
+P14780,P16035,4318,7077,ENSG00000100985,ENSG00000035862,MMP9,TIMP2,protease assay,enzymatic reaction,19010413,Packard BZ et al.(2009),0.25
+P15502,P28300,2006,4015,ENSG00000049540,ENSG00000113083,ELN,LOX,enzyme linked immunosorbent assay,direct interaction,19570982,Choudhury R et al.(2009),0.4
+P15502,Q9UBX5,2006,10516,ENSG00000049540,ENSG00000140092,ELN,FBLN5,surface plasmon resonance|enzyme linked immunosorbent assay,physical association|direct interaction,19570982,Choudhury R et al.(2009),0.5
+P15502,P39900,2006,4321,ENSG00000049540,ENSG00000262406,ELN,MMP12,enzymatic study,direct interaction,18334288,Taddese S et al.(2008),0.4
+P15692-4,P17948-2,,,,,,,solid phase assay,direct interaction,21596751,Goyal A et al.(2011),0.4
+P15692-4,P35968,,3791,,ENSG00000128052,,KDR,solid phase assay,direct interaction,21596751,Goyal A et al.(2011),0.4
+P15692,P98160,7422,3339,ENSG00000112715,ENSG00000142798,VEGFA,HSPG2,far western blotting,direct interaction,19422911,Zoeller JJ et al.(2009),0.4
+P16035,P50281,7077,4323,ENSG00000035862,ENSG00000157227,TIMP2,MMP14,surface plasmon resonance|protease assay,direct interaction|enzymatic reaction,12475252|19010413,Troeberg L et al.(2002)|Packard BZ et al.(2009),0.52
+P16035,P51511,7077,4324,ENSG00000035862,ENSG00000102996,TIMP2,MMP15,protease assay,enzymatic reaction,19010413,Packard BZ et al.(2009),0.25
+P16035,P51512,7077,4325,ENSG00000035862,ENSG00000156103,TIMP2,MMP16,protease assay,enzymatic reaction,19010413,Packard BZ et al.(2009),0.25
+P16070,Q12891,960,8692,ENSG00000026508,ENSG00000068001,CD44,HYAL2,anti bait coimmunoprecipitation,physical association,25864644,Hida D et al.(2015),0.37
+P16109,P39060,6403,80781,ENSG00000174175,ENSG00000182871,SELP,COL18A1,solid phase assay,direct interaction,12556525,Kawashima H et al.(2003),0.4
+P16112,Q15113,176,5118,ENSG00000157766,ENSG00000106333,ACAN,PCOLCE,surface plasmon resonance array,direct interaction,24117177,Salza R et al.(2014),0.4
+P17301,P35968,3673,3791,ENSG00000164171,ENSG00000128052,ITGA2,KDR,anti bait coimmunoprecipitation,physical association,21596751,Goyal A et al.(2011),0.37
+P17936,P35555,3486,2200,ENSG00000146674,ENSG00000166147,IGFBP3,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P17948,P98160,2321,3339,ENSG00000102755,ENSG00000142798,FLT1,HSPG2,enzyme linked immunosorbent assay,direct interaction,21596751,Goyal A et al.(2011),0.4
+P18827,Q15113,6382,5118,ENSG00000115884,ENSG00000106333,SDC1,PCOLCE,anti bait coimmunoprecipitation,physical association,25286301,Weiss T et al.(2014),0.37
+P18827,Q16787,6382,3909,ENSG00000115884,ENSG00000053747,SDC1,LAMA3,anti bait coimmunoprecipitation,physical association,25286301,Weiss T et al.(2014),0.37
+P20908,P24821,1289,3371,ENSG00000130635,ENSG00000041982,COL5A1,TNC,two hybrid|anti bait coimmunoprecipitation,physical association,20979576,Symoens S et al.(2011),0.41
+P20908,Q86SF2,1289,51809,ENSG00000130635,ENSG00000109586,COL5A1,GALNT7,two hybrid,physical association,20979576,Symoens S et al.(2011),0.34
+P20908,Q15113,1289,5118,ENSG00000130635,ENSG00000106333,COL5A1,PCOLCE,two hybrid|surface plasmon resonance,physical association|direct interaction,20979576,Symoens S et al.(2011),0.48
+P21781,P98160,2252,3339,ENSG00000140285,ENSG00000142798,FGF7,HSPG2,solid phase assay,direct interaction,10702276,Mongiat M et al.(2000),0.4
+P21810,Q15113,633,5118,ENSG00000182492,ENSG00000106333,BGN,PCOLCE,surface plasmon resonance array,direct interaction,24117177,Salza R et al.(2014),0.4
+P21980,P55036,7052,5710,ENSG00000198959,ENSG00000159352,TGM2,PSMD4,anti bait coimmunoprecipitation|fluorescence microscopy,physical association|colocalization,19931242,L'Heureux DZ et al.(2010),0.42
+P21980,Q15113,7052,5118,ENSG00000198959,ENSG00000106333,TGM2,PCOLCE,surface plasmon resonance array,direct interaction,24117177,Salza R et al.(2014),0.4
+P22105,Q15113,7148,5118,ENSG00000168477,ENSG00000106333,TNXB,PCOLCE,surface plasmon resonance array,direct interaction,24117177,Salza R et al.(2014),0.4
+P24593,P35555,3488,2200,ENSG00000115461,ENSG00000166147,IGFBP5,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P24821,Q9H3U7,3371,64094,ENSG00000041982,ENSG00000112562,TNC,SMOC2,surface plasmon resonance,direct interaction,21349332,Brellier F et al.(2011),0.4
+P24821,Q9H4F8,3371,64093,ENSG00000041982,ENSG00000198732,TNC,SMOC1,pull down|anti bait coimmunoprecipitation|anti tag coimmunoprecipitation|surface plasmon resonance,association|direct interaction,21349332,Brellier F et al.(2011),0.53
+P24821,Q14112,3371,22795,ENSG00000041982,ENSG00000087303,TNC,NID2,pull down,association,21349332,Brellier F et al.(2011),0.32
+P24821,Q16820,3371,4225,ENSG00000041982,ENSG00000141434,TNC,MEP1B,protease assay,protein cleavage,19748582,Ambort D et al.(2010),0.25
+P25067,P62805,1296,121504,ENSG00000171812,ENSG00000274618,COL8A2,H4-16,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P26022,Q14624,5806,3700,ENSG00000163661,ENSG00000055955,PTX3,ITIH4,enzyme linked immunosorbent assay|competition binding,direct interaction,21619930,Ievoli E et al.(2011),0.46
+P28300,P35555,4015,2200,ENSG00000113083,ENSG00000166147,LOX,FBN1,enzyme linked immunosorbent assay|pull down,direct interaction|physical association,19570982|19755719,Choudhury R et al.(2009)|Cain SA et al.(2009),0.56
+P28300,P98160,4015,3339,ENSG00000113083,ENSG00000142798,LOX,HSPG2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P28300,Q8WXI9,4015,57459,ENSG00000113083,ENSG00000143614,LOX,GATAD2B,two hybrid|confocal microscopy,physical association|colocalization,25118846,Okkelman IA et al.(2014),0.4
+P28300,Q9UBK9,4015,8409,ENSG00000113083,ENSG00000126756,LOX,UXT,two hybrid,physical association,28106301,Sanchez-Morgan N et al.(2017),0.34
+P28300,Q9UBX5,4015,10516,ENSG00000113083,ENSG00000140092,LOX,FBLN5,two hybrid,physical association,25118846,Okkelman IA et al.(2014),0.34
+P28300,Q9UQ80,4015,5036,ENSG00000113083,ENSG00000170515,LOX,PA2G4,two hybrid,physical association,25118846,Okkelman IA et al.(2014),0.34
+P28300,Q9Y316,4015,51072,ENSG00000113083,ENSG00000162959,LOX,MEMO1,two hybrid,physical association,25118846,Okkelman IA et al.(2014),0.34
+P28300,Q86SQ9,4015,79947,ENSG00000113083,ENSG00000117682,LOX,DHDDS,two hybrid,physical association,15110773,Kharel Y et al.(2004),0.34
+P28300,Q07890,4015,6655,ENSG00000113083,ENSG00000100485,LOX,SOS2,two hybrid,physical association,25118846,Okkelman IA et al.(2014),0.34
+P28300,Q14676,4015,9656,ENSG00000113083,ENSG00000137337,LOX,MDC1,two hybrid,physical association,25118846,Okkelman IA et al.(2014),0.34
+P28300,Q15262,4015,5796,ENSG00000113083,ENSG00000152894,LOX,PTPRK,two hybrid|anti tag coimmunoprecipitation|anti bait coimmunoprecipitation,physical association,21690299,Sanchez-Morgan N et al.(2011),0.44
+P28799,P35555,2896,2200,ENSG00000030582,ENSG00000166147,GRN,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P28799,P98160,2896,3339,ENSG00000030582,ENSG00000142798,GRN,HSPG2,far western blotting,direct interaction,19422911,Zoeller JJ et al.(2009),0.4
+P28799,Q16610,2896,1893,ENSG00000030582,ENSG00000143369,GRN,ECM1,two hybrid,physical association,19275936,Sercu S et al.(2009),0.34
+P31151,P35555,6278,2200,ENSG00000143556,ENSG00000166147,S100A7,FBN1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P31431,Q14767,6385,4053,ENSG00000124145,ENSG00000119681,SDC4,LTBP2,enzyme linked immunosorbent assay,direct interaction,20382221,Parsi MK et al.(2010),0.4
+P34741,Q16787,6383,3909,ENSG00000169439,ENSG00000053747,SDC2,LAMA3,solid phase assay|affinity chromatography technology,physical association,11373281,Utani A et al.(2001),0.42
+P35555,P35556,2200,2201,ENSG00000166147,ENSG00000138829,FBN1,FBN2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P35555,P55001,2200,4237,ENSG00000166147,ENSG00000117122,FBN1,MFAP2,surface plasmon resonance|pull down,direct interaction|physical association,15980072|19755719,Cain SA et al.(2005)|Cain SA et al.(2009),0.56
+P35555,P61812,2200,7042,ENSG00000166147,ENSG00000092969,FBN1,TGFB2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P35555,P98160,2200,3339,ENSG00000166147,ENSG00000142798,FBN1,HSPG2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P35555,Q6ZMM2-1,2200,,ENSG00000166147,,FBN1,,pull down,physical association,23010571,Bader HL et al.(2012),0.37
+P35555,Q9UBX5,2200,10516,ENSG00000166147,ENSG00000140092,FBN1,FBLN5,enzyme linked immunosorbent assay,direct interaction,19570982,Choudhury R et al.(2009),0.4
+P35555,Q08397,2200,4016,ENSG00000166147,ENSG00000129038,FBN1,LOXL1,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P35555,Q15582,2200,7045,ENSG00000166147,ENSG00000120708,FBN1,TGFBI,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P35555,Q16270,2200,3490,ENSG00000166147,ENSG00000163453,FBN1,IGFBP7,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P35556,Q6ZMM2-1,2201,,ENSG00000138829,,FBN2,,pull down,physical association,23010571,Bader HL et al.(2012),0.37
+P35556,Q16610,2201,1893,ENSG00000138829,ENSG00000143369,FBN2,ECM1,two hybrid,physical association,19275936,Sercu S et al.(2009),0.34
+P35625,P78536,7078,6868,ENSG00000100234,ENSG00000151694,TIMP3,ADAM17,tandem affinity purification,physical association,19666115,Kwak HI et al.(2009),0.37
+P35625,Q9UNA0,7078,11096,ENSG00000100234,ENSG00000154736,TIMP3,ADAMTS5,protease assay,direct interaction,19643179,Troeberg L et al.(2009),0.4
+P35625,Q13444,7078,8751,ENSG00000100234,ENSG00000143537,TIMP3,ADAM15,tandem affinity purification,physical association,19666115,Kwak HI et al.(2009),0.37
+P35968,P98160,3791,3339,ENSG00000128052,ENSG00000142798,KDR,HSPG2,enzyme linked immunosorbent assay,direct interaction,21596751,Goyal A et al.(2011),0.4
+P39060,P55001,80781,4237,ENSG00000182871,ENSG00000117122,COL18A1,MFAP2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P49006,Q9Y4K0,65108,4017,ENSG00000175130,ENSG00000134013,MARCKSL1,LOXL2,two hybrid|anti tag coimmunoprecipitation|anti bait coimmunoprecipitation,physical association,24863880,Kim BR et al.(2014),0.44
+P49747,Q16610,1311,1893,ENSG00000105664,ENSG00000143369,COMP,ECM1,anti bait coimmunoprecipitation,physical association,20138147,Kong L et al.(2010),0.37
+P50281,Q99727,4323,7079,ENSG00000157227,ENSG00000157150,MMP14,TIMP4,enzymatic study|surface plasmon resonance,enzymatic reaction|direct interaction,12475252,Troeberg L et al.(2002),0.46
+P55001,P62805,4237,121504,ENSG00000117122,ENSG00000274618,MFAP2,H4-16,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P55001,P98160,4237,3339,ENSG00000117122,ENSG00000142798,MFAP2,HSPG2,pull down,physical association,19755719,Cain SA et al.(2009),0.37
+P58215,Q8WXI9,84695,57459,ENSG00000115318,ENSG00000143614,LOXL3,GATAD2B,pull down,physical association,25118846,Okkelman IA et al.(2014),0.37
+P61769,Q15113,567,5118,ENSG00000166710,ENSG00000106333,B2M,PCOLCE,two hybrid|fluorescence microscopy|anti bait coimmunoprecipitation|solid phase assay|pull down|surface plasmon resonance,physical association|colocalization|direct interaction,18164932|24117177,Morimoto H et al.(2008)|Salza R et al.(2014),0.63
+P61916,Q86SQ9,10577,79947,ENSG00000119655,ENSG00000117682,NPC2,DHDDS,two hybrid|anti tag coimmunoprecipitation,physical association,15110773,Kharel Y et al.(2004),0.41
+P98160,Q14767,3339,4053,ENSG00000142798,ENSG00000119681,HSPG2,LTBP2,enzyme linked immunosorbent assay,direct interaction,20382221,Parsi MK et al.(2010),0.4
+Q08397,Q8WXI9,4016,57459,ENSG00000129038,ENSG00000143614,LOXL1,GATAD2B,pull down,physical association,25118846,Okkelman IA et al.(2014),0.37
+Q08397,Q9UBX5,4016,10516,ENSG00000129038,ENSG00000140092,LOXL1,FBLN5,enzyme linked immunosorbent assay,direct interaction,19570982,Choudhury R et al.(2009),0.4
+Q12805,Q16610,2202,1893,ENSG00000115380,ENSG00000143369,EFEMP1,ECM1,two hybrid|anti tag coimmunoprecipitation|pull down|surface plasmon resonance|confocal microscopy,physical association|direct interaction|colocalization,19275936,Sercu S et al.(2009),0.56
+Q13751,Q16610,3914,1893,ENSG00000196878,ENSG00000143369,LAMB3,ECM1,two hybrid|anti tag coimmunoprecipitation|pull down|confocal microscopy,physical association|colocalization,19275936,Sercu S et al.(2009),0.49
+Q13753,Q16610,3918,1893,ENSG00000058085,ENSG00000143369,LAMC2,ECM1,two hybrid,physical association,19275936,Sercu S et al.(2009),0.34
+Q14766,Q15113,4052,5118,ENSG00000049323,ENSG00000106333,LTBP1,PCOLCE,surface plasmon resonance array,direct interaction,24117177,Salza R et al.(2014),0.4
+Q15113,Q9H6X2,5118,84168,ENSG00000106333,ENSG00000169604,PCOLCE,ANTXR1,surface plasmon resonance array,direct interaction,24117177,Salza R et al.(2014),0.4

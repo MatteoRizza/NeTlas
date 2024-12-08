@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NeTlas</title>
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/degreedistribution.css">
+    <link rel="stylesheet" href="style/graph.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+    <link rel="stylesheet" href="style/livestats.css">
+    <link rel="stylesheet" href="style/filters.css">
+    <link rel="stylesheet" href="style/export.css">
+    <link rel="stylesheet" href="style/seachgene.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/drugdiseasediv.css">
+    <script src="lib/neo4j-web.js"></script>
+    <script src="lib/cytoscape.min.js"></script>
+    <script src="lib/d3.v5.min.js"></script>
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="lib/popper.min.js"></script>
+    <script src="lib/cytoscape-popper.js"></script>
+    <script src="lib/cytoscape-canvas.js"></script>
+</head>
+<body>
+
+    <img id="logo" src="style/logo.png">
+
+    <div id="loader" class="lds-dual-ring"></div>
+    <div id="black"></div>
+
+    <button id="stats">Search</button>
+    <button id="sidebarbutton">Drugs/Diseases</button>
+    <button id="export">Export data</button>
+
+    <div id="cy"></div>
+    <div id="tooltipdistribution"></div>
+    <div id="tooltipdistributionmin"></div>
+
+    <div id="mapcontainer">
+        <img id="map">
+        <div id="focus"></div>
+    </div>
+
+    <div id="ddsetscontainer">
+        <label class="container">Only drugs
+            <input type="checkbox" id="drugset" checked>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Only diseases
+            <input type="checkbox" id="diseaseset" checked>
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Both drugs and diseases
+            <input type="checkbox" id="intersectionset" checked>
+            <span class="checkmark"></span>
+        </label>
+    </div>
+
+    <div id="searchgene">
+
+        <button id="closestats">Close</button><br><br>
+        <h1 style="color: white">Search gene</h1>
+        <input type="text" id="myInput" onkeyup="searchgene()" placeholder="Search..">
+
+        <div id="radiosearch">
+            <button id="unibutton">Uniprod ID</button>
+            <button id="entbutton">Entrez Gene ID</button>
+            <button id="ensbutton">Ensembl ID</button>
+            <button id="hgncbutton">HGNC Symbol</button>
+        </div>
+
+        <div id="searchcontainer">
+            <ul id="myUL"></ul>
+        </div>
+
+    </div>
+
+    <table id="livestats"></table>
+
+    <div id="edgegraph"></div>
+
+    <div id="degreedistribution">
+        <h1 style="color: white">Centrality distribution</h1>
+    </div>
+
+    <div id="sidebarcontainer">
+        <button id="closesidebar">Close</button>
+
+        <input type="text" id="myInputside" onkeyup="searchside()" placeholder="Search..">
+
+        <div id="switchcontainer">
+            <button id="drugswitch">Drugs</button>
+            <button id="diseaseswitch">Diseases</button>
+        </div>
+
+        <div id="sidehead">
+            <table id="sidebar">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th colspan="2">Edges</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th onclick="sortTable1()">
+                        Name&nbsp;<img id="orderimg1" src="style/greenarrow.png" width="10" height="10">
+                    </th>
+                    <th onclick="sortTable2()">
+                        Genes&nbsp;<img id="orderimg2" src="style/greenarrow.png" width="10" height="10">
+                    </th>
+                    <th onclick="sortTable3()">
+                        Int&nbsp;<img id="orderimg3" src="style/greenarrow.png" width="10" height="10">
+                    </th>
+                    <th onclick="sortTable4()">
+                        Ext&nbsp;<img id="orderimg4" src="style/greenarrow.png" width="10" height="10">
+                    </th>
+                    <th>Similar</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="sidebarscroll">
+            <table id="sidebarbody"></table>
+        </div>
+
+    </div>
+
+    <ul id="menu">
+        <li><a class="active" id="datasetmenu">Datasets</a></li>
+        <li><a id="drugmenu">Drugs</a></li>
+        <li><a id="diseasemenu">Diseases</a></li>
+    </ul>
+
+    <table id="filters">
+
+        <tr>
+            <td id="switchlabel">
+                Clusters
+            </td>
+            <td>
+                <label class="switch">
+                    <input id="switchbutton" type="checkbox" checked>
+                    <div class="slider round"></div>
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <label class="container">Size x 2
+                    <input type="checkbox" id="sizenodes">
+                    <span class="checkmark"></span>
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <label class="container" style="font-size: 16px">Show unlinked nodes
+                    <input type="checkbox" id="showunconnectednodes" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label class="container">Biogrid
+                    <input type="checkbox" id="showbiogrid" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </td>
+            <td>
+                <div id="biogridcolor"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label class="container">Intact
+                    <input type="checkbox" id="showintact" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </td>
+            <td>
+                <div id="intactcolor"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label class="container">Innatedb
+                    <input type="checkbox" id="showinnatedb" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </td>
+            <td>
+                <div id="innatedbcolor"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label class="container">Mint
+                    <input type="checkbox" id="showmint" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </td>
+            <td>
+                <div id="mintcolor"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label class="container">Dip
+                    <input type="checkbox" id="showdip" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </td>
+            <td>
+                <div id="dipcolor"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label class="container">Matrixdb
+                    <input type="checkbox" id="showmatrixdb" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </td>
+            <td>
+                <div id="matrixdbcolor"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <hr>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="font-size: 18px;">
+                Intersection
+            </td>
+            <td>
+                <div id="intersectioncolor"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="font-size: 18px;">
+                Clusters
+            </td>
+            <td>
+                <div id="clusterscolor"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="font-size: 18px;">
+                Others
+            </td>
+            <td>
+                <div id="otherscolor"></div>
+            </td>
+        </tr>
+
+    </table>
+    <div id="drugdiv"><i id="defaultdrug" style="float: right">No elements displayed&nbsp;</i><br></div>
+    <div id="diseasediv"><i id="defaultdisease" style="float: right">No elements displayed&nbsp;</i><br></div>
+
+    <button id="resetsidebar" onclick="resetstyle()">Reset</button>
+
+    <div id="exportcontainer">
+        <button id="closeexport">Close</button>
+        <h1>EXPORT DATABASES</h1>
+        <div id="exportleft">
+            <h2>Genes</h2>
+            <label class="container">Biogrid - 76MB
+                <input type="checkbox" id="expbiogrid">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Innatedb - 1MB
+                <input type="checkbox" id="expinnatedb">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Intact - 44MB
+                <input type="checkbox" id="expintact">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Mint - 3MB
+                <input type="checkbox" id="expmint">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Matrixdb - 35KB
+                <input type="checkbox" id="expmatrixdb">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Dip - 762KB
+                <input type="checkbox" id="expdip">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Integrated genes database - 89MB
+                <input type="checkbox" id="expgenes">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Visualized database
+                <input type="checkbox" id="exppartial">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+        </div>
+        <div id="exportright">
+            <h2>Drugs</h2>
+            <label class="container">Biogrid - 756KB
+                <input type="checkbox" id="expbiogriddrugs">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Dgi - 842KB
+                <input type="checkbox" id="expdgidrugs">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Integrated drugs database - 1MB
+                <input type="checkbox" id="expdrugs">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <br>
+            <h2>Diseases</h2>
+            <label class="container">Biosnap - 127KB
+                <input type="checkbox" id="expbiosnapdiseases">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Disgenet - 724KB
+                <input type="checkbox" id="expdisgenetdiseases">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Integrated diseases database - 793KB
+                <input type="checkbox" id="expdiseases">
+                <span class="checkmark"></span>
+            </label>
+            <br>
+        </div>
+        <input id="expsubmit" type="submit" value="EXPORT"/>
+    </div>
+
+    <script src="general.js"></script>
+    <script src="graph.js"></script>
+    <script src="livestats.js"></script>
+    <script src="degreedistribution.js"></script>
+    <script src="searchgene.js"></script>
+    <script src="menu.js"></script>
+    <script src="filters.js"></script>
+    <script src="drugdiseasedivs.js"></script>
+    <script src="sidebar.js"></script>
+    <script src="export.js"></script>
+</body>
+</html>

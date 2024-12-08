@@ -1,0 +1,42 @@
+#menu {
+    position: fixed;
+    top: 12%;
+    right: -1%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    background-color: black;
+    border: 1px solid #555;
+    z-index: 1;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+#menu li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+#menu li:last-child {
+    border-bottom: none;
+}
+
+#menu li a.active {
+    background-color: #b22222;
+    color: white;
+}
+
+#menu li a:hover {
+    cursor: pointer;
+}
+
+#menu li a:hover:not(.active) {
+    background-color: grey;
+    color: white;
+}
